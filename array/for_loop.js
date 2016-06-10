@@ -23,3 +23,14 @@ var friends = ["Mando", "Tim", "Alex", "Aidan", "Anthony"];
   _.times(5, function(){
       // ...
   });
+
+
+  for (var trainNumber = 1; trainNumber <= trainsOperational; trainNumber++){
+    console.log("Train #" + trainNumber + " is running");
+  }
+
+
+// printing numbers in descending order
+for (var number = 5; number < 0; number--;){
+  console.log(number);
+}
