@@ -17,3 +17,7 @@ _.last([1, 2, 3]);
 
 _.last(array);
 // → 3
+
+// Get all but the first element of array.
+_.tail([1, 2, 3]);
+// → [2, 3]
